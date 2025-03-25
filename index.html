@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -18,50 +18,198 @@
       href="./images/favicon-32x32.png"
     />
 
-    <title>Frontend Mentor | Stats preview card component</title>
+    <title>Frontend Mentor | Social proof section</title>
   </head>
   <body>
     <div class="wrapper">
+      <div class="top-wrapper">
+      <header>
+        <h1>10,000+ of our users love our products.</h1>
+        <p class="center">
+          We only provide great products combined with excellent customer
+          service. See what our satisfied customers are saying about our
+          services.
+        </p>
+      </header>
       <main>
-        <div class="card">
-          <div class="img-wrapper">
-            <picture>
-              <source
-                srcset="./images/image-header-desktop.jpg"
-                media="(min-width: 1140px)"
-              />
-              <source
-                srcset="./images/image-header-mobile.jpg"
-                media="(max-width: 1139px)"
-              />
-              <img
-                src="./images/image-header-desktop.jpg"
-                alt="Women in a shared working space."
-              />
-            </picture>
-          </div>
-          <div class="card-text">
-            <h1>Get <span>insights</span> that help your business grow.</h1>
-            <p>
-              Discover the benefits of data analytics and make better decisions
-              regarding revenue, customer experience, and overall efficiency.
-            </p>
-            <div class="stats">
-              <div class="row">
-                <p class="numbers">10k+</p>
-                <p class="objects">companies</p>
+        <section id="reviews">
+          <div class="review-row">
+            <div class="review">
+              <div class="stars">
+                <img
+                  src="./images/icon-star.svg"
+                  width="17"
+                  height="16"
+                  alt="Star Review"
+                />
+                <img
+                  src="./images/icon-star.svg"
+                  width="17"
+                  height="16"
+                  alt="Star Review"
+                />
+                <img
+                  src="./images/icon-star.svg"
+                  width="17"
+                  height="16"
+                  alt="Star Review"
+                />
+                <img
+                  src="./images/icon-star.svg"
+                  width="17"
+                  height="16"
+                  alt="Star Review"
+                />
+                <img
+                  src="./images/icon-star.svg"
+                  width="17"
+                  height="16"
+                  alt="Star Review"
+                />
               </div>
-              <div class="row">
-                <p class="numbers">314</p>
-                <p class="objects">templates</p>
+              <p class="rated">Rated 5 Stars in Reviews</p>
+            </div>
+            <div class="review review-2">
+              <div class="stars">
+                <img
+                  src="./images/icon-star.svg"
+                  width="17"
+                  height="16"
+                  alt="Star Review"
+                />
+                <img
+                  src="./images/icon-star.svg"
+                  width="17"
+                  height="16"
+                  alt="Star Review"
+                />
+                <img
+                  src="./images/icon-star.svg"
+                  width="17"
+                  height="16"
+                  alt="Star Review"
+                />
+                <img
+                  src="./images/icon-star.svg"
+                  width="17"
+                  height="16"
+                  alt="Star Review"
+                />
+                <img
+                  src="./images/icon-star.svg"
+                  width="17"
+                  height="16"
+                  alt="Star Review"
+                />
               </div>
-              <div class="row">
-                <p class="numbers">12m+</p>
-                <p class="objects">queries</p>
+              <p class="rated">Rated 5 Stars in Report Guru</p>
+            </div>
+            <div class="review review-3">
+              <div class="stars">
+                <img
+                  src="./images/icon-star.svg"
+                  width="17"
+                  height="16"
+                  alt="Star Review"
+                />
+                <img
+                  src="./images/icon-star.svg"
+                  width="17"
+                  height="16"
+                  alt="Star Review"
+                />
+                <img
+                  src="./images/icon-star.svg"
+                  width="17"
+                  height="16"
+                  alt="Star Review"
+                />
+                <img
+                  src="./images/icon-star.svg"
+                  width="17"
+                  height="16"
+                  alt="Star Review"
+                />
+                <img
+                  src="./images/icon-star.svg"
+                  width="17"
+                  height="16"
+                  alt="Star Review"
+                />
               </div>
+              <p class="rated">Rated 5 Stars in BestTech</p>
             </div>
           </div>
-        </div>
+        </section>
+      </div>
+        <section id="testimonials">
+          <div class="testimonial-card">
+            <div class="details-row">
+              <div class="profile-img-wrapper">
+                <img
+                  src="./images/image-colton.jpg"
+                  width="40"
+                  height="40"
+                  class="profile-img"
+                  alt="Colton Smith"
+                />
+              </div>
+              <div class="profile-details">
+                <p class="name white">Colton Smith</p>
+                <p class="soft-pink">Verified Buyer</p>
+              </div>
+            </div>
+            <p class="white">
+              "We needed the same printed design as the one we had ordered a
+              week prior. Not only did they find the original order, but we also
+              received it in time. Excellent!"
+            </p>
+          </div>
+          <div class="testimonial-card card-2">
+            <div class="details-row">
+              <div class="profile-img-wrapper">
+                <img
+                  src="./images/image-irene.jpg"
+                  width="40"
+                  height="40"
+                  class="profile-img"
+                  alt="Irene Roberts"
+                />
+              </div>
+              <div class="profile-details">
+                <p class="name white">Irene Roberts</p>
+                <p class="soft-pink">Verified Buyer</p>
+              </div>
+            </div>
+            <p class="white">
+              "Customer service is always excellent and very quick turn around.
+              Completely delighted with the simplicity of the purchase and the
+              speed of delivery."
+            </p>
+          </div>
+          <div class="testimonial-card card-3">
+            <div class="details-row">
+              <div class="profile-img-wrapper">
+                <img
+                  src="./images/image-anne.jpg"
+                  width="40"
+                  height="40"
+                  class="profile-img"
+                  alt="Anne Wallace"
+                />
+              </div>
+              <div class="profile-details">
+                <p class="name white">Anne Wallace</p>
+                <p class="soft-pink">Verified Buyer</p>
+              </div>
+            </div>
+            <p class="white">
+              "Put an order with this company and can only praise them for the
+              very high standard. Will definitely use them again and recommend
+              them to everyone!"
+            </p>
+          </div>
+        </section>
       </main>
     </div>
   </body>
